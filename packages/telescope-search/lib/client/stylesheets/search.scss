@@ -1,4 +1,5 @@
 $dark-grey:#444444;
+$shine-pink: #dd5862;
 
 .side-nav{
   .search.empty .search-field{
@@ -13,6 +14,7 @@ $dark-grey:#444444;
   position: relative;
   .search-field {
     color: $dark-grey;
+    outline: $shine-pink;
     font-size: 14px;
     padding: 4px 12px;
     line-height: 1.3;
@@ -22,12 +24,14 @@ $dark-grey:#444444;
     max-width: $expanded-width;
     transition: 0.2s all;
     -webkit-appearance: textfield;
-    background: white;
+    background: cornsilk;
+    outline-color: $shine-pink;
     .white-bg &{
-      border: 1px solid #ddd;  
+      border: 0px solid #ddd;
     }
     &:focus {
-      outline: none;
+      outline: $shine-pink;
+      outline-width: 10px;
       background: white;
     }
     &::-webkit-input-placeholder{
