@@ -24,8 +24,8 @@ body{
 .content-wrapper{
   padding:0 10px;
   max-width: 1200px;
-  margin: 0 auto;
-  background-color: $warm-yellow;
+  margin: 10px auto;
+  background-color: #F5E9E9;
   @include small{
     overflow-x: hidden;
     overflow-y: hidden;
