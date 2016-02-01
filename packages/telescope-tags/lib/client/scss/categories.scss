@@ -76,14 +76,13 @@ $red: #DD3416;
   margin-bottom: 10px;
   display: flex;
   .category-heading{
-    border-radius: 3px;
+    border-radius: 13px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     flex-grow: 1;
     flex-basis: 0;
-    text-align: center;
-    background: black(0.1);
+    text-align: left;
+    background: #F7F6F2;
     margin-right: 10px;
     padding: 10px;
     &:last-of-type{
@@ -98,7 +97,7 @@ $red: #DD3416;
 
 .main-category-title{
   display: inline-block;
-  font-size: 22px;
+  font-size: 18px;
   margin-bottom: 0;
 }
 
