@@ -43,8 +43,10 @@ $dark-red: #e1011a;
 }
 
 .post-list-title, .page-title{
-	text-align: center;
-	font-size: 22px;
+  text-align: left;
+  font-size: 25px;
+  margin: 0px 0px 0px 0px;
+  padding: 18px 10px 10px 10px;
 }
 
 // ------------------------------------ posts views nav ------------------------------------ //
@@ -553,11 +555,11 @@ $dark-red: #e1011a;
 }
 .post-body, .page-body {
 	@extend .has-shadow;
-	border-radius: 3px;
-	margin-bottom: 10px;
-	background: white;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	background: #F7F6F2;
 	padding: 20px;
-	font-size: 16px;
+	font-size: 13px;
 	.list & {
 		display: none;
 	}
