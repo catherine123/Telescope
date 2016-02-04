@@ -147,13 +147,13 @@
 }
 // ------------------------------------ Side Nav Layout ------------------------------------ //
 
-$nav-width: 250px;
+$nav-width: 280px;
 
 .side-nav{
   .inner-wrapper{
 		@include medium-large{
 	    margin-left: $nav-width;
-	    padding-top: 10px;
+	    padding-top: 12px;
     }
 	}
 	.header{

@@ -1,35 +1,37 @@
 $dark-grey:#444444;
 $dark-red: #e1011a;
+$light-pink: #F5E9E9;
+$dark: #38393D;
+$main-pink: #c90163;
 
 .side-nav{
   .search.empty .search-field{
     max-width: none;
+    background: $light-pink;
   }
 }
 
 .search {
-  $compressed-width: 120px;
-  $expanded-width: 250px;
+  $compressed-width: 150px;
+  $expanded-width: 300px;
 
   position: relative;
   .search-field {
-    color: #444444;
-    outline: #e1011a;
-    font-size: 14px;
-    padding: 4px 6px;
-    line-height: 1.8;
-    border-radius: 10px;
-    border: 10px;
-    width: 300%;
-    max-width: 300px;
-    -webkit-transition: 0.4s all;
-    transition: 0.4s all;
+    border: 2px solid $main-pink;
+    font-size: 15px;
+    padding: 4px 4px;
+    line-height: 1.5;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
     -webkit-appearance: textfield;
     .white-bg &{
-      border: 2px solid #e1011a;
+
     }
     &:focus {
-      background: #F5E9E9;
+      background: $light-pink;
+
+      max-width: $expanded-width;
+
     }
     &::-webkit-input-placeholder{
       color: currentColor;
@@ -41,12 +43,10 @@ $dark-red: #e1011a;
   &.empty {
     .search-field {
       max-width: $compressed-width;
-      background: rgba(255, 255, 255, 1);
-      color: rgba(255, 255, 255, 1);
+      backgroud:$light-pink;
       &:focus {
-        background: white;
+        background-color: $light-pink;
         max-width: $expanded-width;
-        color: #aaa;
 
       }
     }
