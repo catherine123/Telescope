@@ -1,6 +1,6 @@
 // ------------------------------------ posts ------------------------------------ //
 $designed-red: #c90163;
-
+$main-black: #38393D;
 
 .posts-wrapper{
 	padding: 0;
@@ -258,7 +258,7 @@ $designed-red: #c90163;
 			line-height: 24px;
 			vertical-align: middle;
 			text-align: center;
-			font-size: 14px;
+			font-size: 16px;
 			// border-radius: 100%;
 			// box-shadow: 0px 0px 2px white(0.5);
 		}
@@ -501,11 +501,16 @@ $designed-red: #c90163;
 
 
 .post-heading {
-	margin-bottom: 3px;
-	line-height: 1.2;
+
 	.post-title {
-		display: inline;
-		margin-bottom: 0px;
+	  font-size: 16px;
+	  line-height: 130%;
+	  text-decoration: underline;
+	  word-wrap: break-word;
+	  hyphens: auto;
+
+	  display: inline;
+
 		@include small {
 			font-size: 15px;
 		}
@@ -514,8 +519,11 @@ $designed-red: #c90163;
 		}
 		font-weight: normal;
 		&:visited {
-			color: $grey;
+			color: $main-black;
 		}
+	  &:hover {
+	     text-decoration-line: underline;
+	  }
 	}
 	.post-domain {
 		color: $light-text;
@@ -544,9 +552,11 @@ $designed-red: #c90163;
 		&:visited,
 		&:active {
 			color: $medium-text;
+
 		}
 		&:hover {
 			color: $red;
+		    text-decoration: underline;
 		}
 	}
 }

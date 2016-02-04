@@ -2,6 +2,16 @@
   @return rgba(255,255,255,$opacity);
 }
 
+.post-title-appearance{
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 150%;
+  margin: 0px 0px 10px 0px;
+  padding: 0px;
+  word-wrap: break-word;
+  display:block;
+}
+
 .top-nav{
   .desktop-nav{
     .pages-menu{

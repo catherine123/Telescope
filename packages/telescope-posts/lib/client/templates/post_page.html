@@ -11,7 +11,9 @@
             </div>
           {{/if}}
           <div class="single-post grid">
-            <div class="posts posts-list">
+              <h1 class="post-title-appearance"> {{title}} </h1>
+
+              <div class="posts posts-list">
               {{> post_item post=this}}
             </div>
             {{#if body}}
