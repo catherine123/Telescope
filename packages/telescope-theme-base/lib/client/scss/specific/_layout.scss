@@ -23,10 +23,10 @@ body{
 
 .content-wrapper{
   padding: 0 10px 10px 10px;
-  max-width: 1200px;
-  margin: 0 0 0 0;
+  max-width: 1280px;
+  margin: 10px 10px 10px 10px;
   background-color: #F5E9E9;
-  border-radius: 10px;
+  border-radius: 20px;
   @include small{
     overflow-x: hidden;
     overflow-y: hidden;
