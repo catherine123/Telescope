@@ -161,7 +161,18 @@ input[type="submit"], button, .button, .btn{
   }
 }
 .btn-primary{
-  background:$red;
+  width: auto;
+  _width: 78px;
+  min-width: 78px;
+  color: #5e2b4a !important;
+  text-shadow: 0 1px 0 rgba(255,255,255,.3);
+  background: #c90163;
+  background: -webkit-linear-gradient(top, #c93482,#c90163);
+  background: linear-gradient(to bottom,#c93482,#c90163);
+  border: 1px solid #c93482;
+  box-shadow: 0 1px 0 rgba(255,255,255,.5) inset,0 1px 0 rgba(0,0,0,.2);
+
+  background:#c90163;
   &:link, &:hover, &:active, &:visited{
     color:white;
   }

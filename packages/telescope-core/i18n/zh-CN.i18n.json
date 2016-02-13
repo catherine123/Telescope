@@ -8,7 +8,7 @@
   "users" : "用户",
   "settings" : "设置",
   "admin" : "管理",
-  "post" : "提交",
+  "post" : "提问",
   "toolbox" : "工具箱",
   "sign_up_sign_in" : "注册/登录",
   "my_account" : "帐号",
@@ -50,5 +50,5 @@
   "you_must_be_logged_in" : "你必须登录.",
   "are_you_sure" : "是否确定?",
   "please_log_in_first" : "请先登录",
-  "sign_in_sign_up_with_twitter" : "使用微博等/注册"
+  "sign_in_sign_up_with_twitter" : "使用twitter帐号注册"
 }
