@@ -44,7 +44,7 @@ $main-black: #38393D;
 
 .post-list-title, .page-title{
   text-align: left;
-  font-size: 25px;
+  font-size: 20px;
   margin: 0px 0px 0px 0px;
   padding: 18px 10px 10px 10px;
 }
@@ -329,24 +329,24 @@ $main-black: #38393D;
 	}
 	.upvoted{
 		.upvote-link{
-			color: $red;
+			color: #c90163;
 		}
 	}
 	.downvoted{
 		.downvote-link{
-			color: $red;
+			color: #c90163;
 		}
 	}
 	.vote-actions{
-		border: 1px solid $lighter-text;
-		border-radius: 10px;
+		border: none;
+
 	}
 	.downvote-link{
-		border-top: 1px solid $lighter-text;
+		border-top: 2px solid $lighter-text;
 	}
 	.vote-action{
 		padding: 2px 3px;
-		font-size: 10px;
+		font-size: 15px;
 	}
 
 	.upvote-link {
@@ -504,8 +504,7 @@ $main-black: #38393D;
 
 	.post-title {
 	  font-size: 16px;
-	  line-height: 130%;
-	  text-decoration: underline;
+	  line-height: 100%;
 	  word-wrap: break-word;
 	  hyphens: auto;
 
@@ -515,14 +514,14 @@ $main-black: #38393D;
 			font-size: 15px;
 		}
 		@include medium-large {
-			font-size: 18px;
+			font-size: 16px;
 		}
 		font-weight: normal;
 		&:visited {
 			color: $main-black;
 		}
 	  &:hover {
-	     text-decoration-line: underline;
+		 text-decoration: underline;
 	  }
 	}
 	.post-domain {
