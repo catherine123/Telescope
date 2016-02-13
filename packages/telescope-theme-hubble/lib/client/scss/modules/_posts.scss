@@ -51,25 +51,28 @@ $main-black: #38393D;
 
 // ------------------------------------ posts views nav ------------------------------------ //
 .views-menu-wrapper{
-	background: #F7F6F2;
-	border-radius: 3px;
-	padding: 10px;
-	margin-bottom: 10px;
+
+
 	.menu-label-wrapper, .menu-items, .menu-item{
 		display: inline-block;
 	}
 	.menu-label-wrapper{
-		margin-right: 10px;
-		&:after{
-			content: ": ";
-		}
+          opacity:0;
 	}
 	.menu-item{
-		padding: 0;
-		margin: 0 10px 0 0;
+	  padding: 5px 8px 5px 8px;
+	  border-radius: 3px;
 		.menu-item-label-text{
 			display: inline-block;
-		}
+	}
+	 .menu-item-label:active,
+	 .menu-item-label:hover
+	  {
+	   text-decoration: none;
+		background-color: #c90163;
+		color: white;
+	  }
+
 		.menu-item-label-description{
 			display: none;
 		}
@@ -77,6 +80,7 @@ $main-black: #38393D;
 	.menu-description{
 		display: none;
 	}
+
 }
 // ------------------------------ posts-list layout ------------------------------ //
 

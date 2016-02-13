@@ -1,6 +1,6 @@
 {
-  "bio" : "小传",
-  "email" : "Email",
+  "bio" : "介绍下自己吧～",
+  "email" : "邮箱",
   "please_complete_your_profile_below_before_continuing" : "在继续之前请填写相关资料.",
   "account" : "帐号",
   "username" : "用户名",
@@ -42,7 +42,7 @@
   "sign_up" : "注册",
   "please_fill_in_all_fields" : "请填写完整",
   "invite_" : "邀请 ",
-  "left" : " restante",
+  "left" : "剩下",
   "invite_none_left" : "Invite (none left)",
   "all" : "全部",
   "invited" : "邀请",

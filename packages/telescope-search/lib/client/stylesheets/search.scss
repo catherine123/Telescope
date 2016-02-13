@@ -19,7 +19,7 @@ $main-pink: #c90163;
   position: relative;
   .search-field {
     border: 2px solid $main-pink;
-    font-size: 15px;
+    font-size: 12px;
     padding: 4px 4px;
     line-height: 1.5;
     -webkit-transition: 0.5s all;
@@ -35,7 +35,7 @@ $main-pink: #c90163;
 
     }
     &::-webkit-input-placeholder{
-      color: currentColor;
+      color: grey;
     }
     &::-moz-placeholder{
       color: currentColor;

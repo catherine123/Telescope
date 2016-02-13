@@ -26,7 +26,7 @@ Package.onUse(function (api) {
     'lib/client/templates/day_heading.html',
     'lib/client/templates/load_more_days.html',
     'lib/client/templates/load_more_days.js',
-    'lib/client/stylesheets/daily.scss',
+    'lib/client/stylesheets/daily.scss'
     ], ['client']);
 
   api.addFiles([
