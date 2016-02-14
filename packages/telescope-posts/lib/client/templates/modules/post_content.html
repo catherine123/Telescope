@@ -3,6 +3,7 @@
     {{> modules zone="postThumbnail" moduleData=this}}
     <div class="post-info">
       {{> modules zone="postHeading" zoneClass="post-heading" moduleData=this}}
+      {{#if postedAt}}<span>{{timeAgo postedAt}}</span>{{/if}}
       {{> modules zone="postMeta" zoneClass="post-meta" moduleClass="post-meta-item" moduleData=this}}
     </div>
   </div>
