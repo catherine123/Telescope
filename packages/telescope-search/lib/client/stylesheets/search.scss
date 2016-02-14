@@ -6,9 +6,10 @@ $main-pink: #c90163;
 
 .side-nav{
   .search.empty .search-field{
-    max-width: none;
-    background: $light-pink;
+    max-width: 300px;
+    background: #B5A0AC;
     color: $main-pink;
+    border-radius: 3px;
   }
 }
 
@@ -19,7 +20,8 @@ $main-pink: #c90163;
   position: relative;
   .search-field {
     border: 2px solid $main-pink;
-    font-size: 12px;
+    border-radius: 4px;
+    font-size: 14px;
     padding: 4px 4px;
     line-height: 1.5;
     -webkit-transition: 0.5s all;
